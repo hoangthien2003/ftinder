@@ -2,4 +2,56 @@ client/node_modules
 server/node_modules
 client/build
 .env.local
-.idea
+# Created by https://www.gitignore.io/api/intellij
+
+### Intellij ###
+# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio and Webstorm
+# Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
+
+# User-specific stuff:
+/server/.idea/workspace.xml
+/server/.idea/tasks.xml
+/server/.idea/dictionaries
+/server/.idea/vcs.xml
+/server/.idea/jsLibraryMappings.xml
+
+# Sensitive or high-churn files:
+/server/.idea/dataSources.ids
+/server/.idea/dataSources.xml
+/server/.idea/dataSources.local.xml
+/server/.idea/sqlDataSources.xml
+/server/.idea/dynamic.xml
+/server/.idea/uiDesigner.xml
+
+# Gradle:
+/server/.idea/gradle.xml
+/server/.idea/libraries
+
+# Mongo Explorer plugin:
+/server/.idea/mongoSettings.xml
+
+## File-based project format:
+*.iws
+
+## Plugin-specific files:
+
+# IntelliJ
+/out/
+
+# mpeltonen/sbt-idea plugin
+.idea_modules/
+
+# JIRA plugin
+atlassian-ide-plugin.xml
+
+# Crashlytics plugin (for Android Studio and IntelliJ)
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+fabric.properties
+
+### Intellij Patch ###
+# Comment Reason: https://github.com/joeblau/gitignore.io/issues/186#issuecomment-215987721
+
+# *.iml
+# modules.xml
